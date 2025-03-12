@@ -24,8 +24,6 @@ public class ConvertingNumberIntoString {
 		String number = numberToString(num);
 		
 		System.out.println(number);
-		
-		
 	}
 
 }
