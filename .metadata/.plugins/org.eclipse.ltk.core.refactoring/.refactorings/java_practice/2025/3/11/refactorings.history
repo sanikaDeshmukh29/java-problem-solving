@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;DnaToRna.java&apos; to &apos;coding_challenges.DnaToRna.java&apos;&#x0D;&#x0A;- Original project: &apos;java_practice&apos;&#x0D;&#x0A;- Destination element: &apos;coding_challenges.DnaToRna.java&apos;&#x0D;&#x0A;- Original element: &apos;coding_challenges.DnaToRna.java&apos;" description="Copy compilation unit" destination="/src&lt;coding_challenges{DnaToRna.java" element1="/src&lt;coding_challenges{DnaToRna.java" files="0" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1741792906413" units="1" version="1.0"/>
+</session>
