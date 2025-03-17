@@ -1,0 +1,17 @@
+package coding_challenges;
+
+public class BetterThanAverage {
+	
+	
+	
+	public static void main(String[] args) {
+		int arr[] = {2,3,4,5};
+		int sum = 0;
+		
+		for(int ele : arr) {
+			sum += arr[ele];
+		}
+		System.out.println(sum);
+	}
+
+}
