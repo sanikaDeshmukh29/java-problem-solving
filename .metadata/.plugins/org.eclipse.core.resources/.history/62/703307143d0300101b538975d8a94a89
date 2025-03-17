@@ -10,7 +10,8 @@ public class BetterThanAverage {
 		    for(int ele : classPoints){
 		        sum += ele; 
 		    }
-		  
+		    
+		    // Corrected average calculation
 		    double average = (sum + yourPoints) / (double) (classPoints.length + 1);
 		    
 		    return yourPoints > average;
