@@ -3,19 +3,26 @@ package coding_challenges;
 public class BetterThanAverage {
 	
 	
-	
-	public static void main(String[] args) {
-		int arr[] = {2,3,4,5};
-		int sum = 0;
-		double average = 0;
+		  public static boolean betterThanAverage(int[] classPoints, int yourPoints) {
+		    
+		    int sum = 0;
+		    
+		    for(int ele : classPoints){
+		        sum += ele; 
+		    }
+		    
+		    // Corrected average calculation
+		    double average = (sum + yourPoints) / (double) (classPoints.length + 1);
+		    
+		    return yourPoints > average;
+		  }
+
+		  public static void main(String[] args) {
+		    int[] classPoints = {60, 70, 80, 90}; 
+		    int yourPoints = 85; 
+		    
+		    System.out.println(betterThanAverage(classPoints, yourPoints)); // Expected: true
+		  }
 		
-		for(int ele : arr) {
-			sum += ele;
-		}
-		sum += 50;
-		average = sum / arr.length;
-		
-		System.out.println(average);
-	}
 
 }
