@@ -37,7 +37,7 @@ public class MinandMax {
 		
 		 int[] numbers = {4, 6, 2, 1, 9, 63, -134, 566};
 
-	        System.out.println("Min: " + min(numbers)); 
+	        System.out.println("Min: " + min(numbers)); // Output: -134
 	        System.out.println("Max: " + max(numbers));
 	}
 }
