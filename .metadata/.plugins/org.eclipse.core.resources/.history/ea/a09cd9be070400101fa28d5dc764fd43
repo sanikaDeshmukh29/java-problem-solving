@@ -1,0 +1,32 @@
+package coding_challenges;
+
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+
+public class IdentifyYourFreinds {
+
+	public static List<String> getYourFreinds(List<String> freinds){
+		
+		List<String> myFreinds = new ArrayList<>();
+		
+		for(String name : freinds) {
+			
+			if(name.length() == 4) {
+			myFreinds.add(name);
+		}
+		
+		
+		return myFreinds;
+		
+	}
+	
+	public static void main(String[] args) {
+		
+		List<String> names = Arrays.asList("sani","Aaru","vaishu","Anamika","annanya");
+		
+		List<String> displayOnlyMyFreinds = getYourFreinds(names);
+		
+		System.out.println(displayOnlyMyFreinds);
+	}
+}
