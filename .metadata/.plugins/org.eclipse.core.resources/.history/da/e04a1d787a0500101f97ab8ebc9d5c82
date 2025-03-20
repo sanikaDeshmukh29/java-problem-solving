@@ -1,0 +1,31 @@
+package coding_challenges;
+
+import java.util.Scanner;
+
+public class ATMMoneyPattern {
+	
+	public static void main(String[] args) {
+		
+		int twoThousand, fiveHundred, twoHundred, hundred = 0;
+		
+		int amount;
+		
+		Scanner sc = new Scanner(System.in);
+		
+		amount = sc.nextInt();
+		
+		if(amount >= 2000) {
+			twoThousand = amount / 2000;
+			System.out.println("2000"+ "x"+twoThousand + "=" + 2000 * twoThousand);
+			amount = amount % 2000;
+		}
+		
+		if(amount >= 500) {
+			fiveHundred = amount / 500;
+			System.out.println("500"+ "x"+fiveHundred + "=" + 500 * fiveHundred);
+			amount = amount % 500;
+		}
+		
+	}
+
+}
