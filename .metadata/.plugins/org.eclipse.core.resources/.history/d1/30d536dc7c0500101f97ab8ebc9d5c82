@@ -1,0 +1,26 @@
+package coding_challenges;
+
+import java.util.Scanner;
+
+public class Tiles {
+
+	public static void main(String[] args) {
+		int red, blue, green = 0;
+		int number;
+		
+		System.out.println("Enter the number");
+		Scanner sc = new Scanner(System.in);
+		
+		number = sc.nextInt();
+		
+		if(number >= 5) {
+			red = number / 5;
+			number = number  % 5;
+			System.out.println(red);
+		}
+		
+		
+	}
+	
+	
+}
